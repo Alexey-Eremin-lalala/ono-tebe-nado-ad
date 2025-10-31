@@ -4,7 +4,6 @@
   align-items: center;
   padding: 92px 37px 96px;
   width: 100%;
-  background-color:lightblue;
 }
 
 .header__links-list {
@@ -65,7 +64,16 @@
   font-size: 18px;
   line-height: 1.35;
 }
+.overlay {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top: 0;
+    left:0;
+    opacity: 0.55;
+    background-color: #000000;
 
+}
 .cover {
     background-image: url(../images/cover.jpg);
     position:relative;
@@ -88,6 +96,39 @@
     text-transform: uppercase;
     letter-spacing: 30px;
 }
-.aligned-text{
-
+.aligned-text {
+    text-align:left;
 }
+.aligned-text_center {
+    text-align:center;
+}
+.aligned-text_right {
+    text-align:right;
+}
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 78px;
+  padding: 136px 0 0;
+}
+
+.cover__description-text {
+  color: #FFF;
+  font-size: 22px;
+  line-height: 1.27;
+  text-transform: uppercase;
+  word-spacing: 19px;
+}
+.bet-button {
+    padding: 12px 32px 11px 31px;
+    border: 1px solid;
+    color:white;
+    background-color: transparent;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
