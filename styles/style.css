@@ -65,3 +65,29 @@
   font-size: 18px;
   line-height: 1.35;
 }
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 165px 50px 50px 50px;
+}
+.content-section {
+  width: 100%;
+  margin: 0 auto;
+}
+.cover__title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-size:100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.aligned-text{
+
+}
