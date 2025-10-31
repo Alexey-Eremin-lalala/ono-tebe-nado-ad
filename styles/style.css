@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 37px 96px;
-    width: 100%;
+    height:293px;
 }
 
 .header__links-list {
@@ -80,6 +79,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 165px 50px 50px 50px;
+    background-position: -155px center;
+    
 }
 .content-section {
     width: 100%;
@@ -98,6 +99,8 @@
 }
 .aligned-text {
     text-align:left;
+    margin-left:-1px;
+    margin-top: 10px;
 }
 .aligned-text_center {
     text-align:center;
