@@ -1,3 +1,14 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 183px;
+}
+
+.content-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -69,7 +80,7 @@
     height:100%;
     top: 0;
     left:0;
-    opacity: 0.55;
+    opacity: 0.62;
     background-color: #000000;
 
 }
@@ -115,7 +126,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 78px;
-    padding: 136px 0 0;
+    padding: 106px 0 0;
 }
 
 .cover__description-text {
@@ -123,7 +134,7 @@
     font-size: 22px;
     line-height: 1.27;
     text-transform: uppercase;
-    word-spacing: 19px;
+    word-spacing: 18px;
 }
 .bet-button {
     padding: 12px 32px 11px 31px;
