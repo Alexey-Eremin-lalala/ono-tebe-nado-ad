@@ -1,10 +1,12 @@
+body {
+  overflow-x: hidden;
+}
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     height:293px;
 }
-
 .header__links-list {
     display: flex;
     gap: 32px;
@@ -82,7 +84,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 165px 50px 50px 50px;
-    background-position: -155px center;
+    background-position: center;
     height:757px;
 
     
@@ -90,6 +92,8 @@
 .content-section {
     width: 100%;
     margin: 0 auto;
+    max-width: 1100px;
+    box-sizing: border-box;
 }
 .cover__title {
     position: relative;
@@ -153,6 +157,7 @@
 .lots {
     padding:  180px 50px 0px 25px;
     margin-top: 9px;
+    justify-content: flex-start;
 }
 
 .lots__heading {
@@ -188,7 +193,6 @@
     height: 596px;
     padding: 50px 40px;
 }
-
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
