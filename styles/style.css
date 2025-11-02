@@ -51,7 +51,7 @@
 .header__address {
     justify-self: end;
     font-style: inherit;
-    padding-right:90px;
+    padding-right:84px;
 }
 
 .address__item {
@@ -110,6 +110,7 @@
 .aligned-text_right {
     text-align:right;
     margin-right:-29px;
+    margin-top:-5px;
 }
 .cover__description {
     position: relative;
@@ -118,7 +119,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 78px;
-    padding: 112px 0 0;
+    padding: 117px 0 0;
 }
 
 .cover__description-text {
@@ -272,7 +273,7 @@
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 22px;
     padding: 0px 0px 180px 0px;
 }
 
