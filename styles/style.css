@@ -7,7 +7,8 @@ body {
     align-items: center;
     height:293px;
     max-width:1100px;
-    width:100px;
+    width:100%;
+    margin: 0 auto;
 }
 .header__links-list {
     display: flex;
@@ -245,8 +246,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 50px;
+    margin: 0 auto;
     margin-top:160px;
-    margin-left:1px;
     max-width:1100px;
     width:100%;
 }
