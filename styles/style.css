@@ -8,6 +8,7 @@
 .header__links-list {
     display: flex;
     gap: 32px;
+    padding-left:50px;
 }
 
 .header__links-list-item {
@@ -50,6 +51,7 @@
 .header__address {
     justify-self: end;
     font-style: inherit;
+    padding-right:90px;
 }
 
 .address__item {
@@ -80,6 +82,7 @@
     background-size: cover;
     padding: 165px 50px 50px 50px;
     background-position: -155px center;
+    height:757px;
     
 }
 .content-section {
@@ -270,6 +273,8 @@
     padding: 0px 50px 80px 50px;
     display:flex;
     justify-content:space-between;
+    height:180px;
+    background-color: aliceblue;
 }
 .footer__menu {
     width: auto;
