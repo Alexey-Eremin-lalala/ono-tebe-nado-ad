@@ -155,7 +155,7 @@ body {
 }
 
 .lots {
-    padding:  180px 50px 0px 25px;
+    padding:  179px 50px 0px 25px;
     margin-top: 9px;
     justify-content: flex-start;
 }
@@ -290,7 +290,6 @@ body {
     padding: 0px 50px 80px 50px;
     display:flex;
     justify-content:space-between;
-    height:180px;
 }
 .footer__menu {
     width: auto;
