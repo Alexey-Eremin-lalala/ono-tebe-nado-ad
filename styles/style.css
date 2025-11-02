@@ -76,7 +76,7 @@
 
 }
 .cover {
-    width:1100px;
+    max-width:1100px;
     background-image: url(../images/cover.jpg);
     position:relative;
     background-repeat: no-repeat;
