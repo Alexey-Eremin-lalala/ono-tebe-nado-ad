@@ -76,6 +76,7 @@
 
 }
 .cover {
+    width:1100px;
     background-image: url(../images/cover.jpg);
     position:relative;
     background-repeat: no-repeat;
@@ -83,6 +84,7 @@
     padding: 165px 50px 50px 50px;
     background-position: -155px center;
     height:757px;
+
     
 }
 .content-section {
@@ -286,7 +288,6 @@
     display:flex;
     justify-content:space-between;
     height:180px;
-    background-color: aliceblue;
 }
 .footer__menu {
     width: auto;
